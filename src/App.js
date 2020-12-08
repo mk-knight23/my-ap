@@ -6,6 +6,7 @@ const { default: BadgeVisibility } = require("./Badge");
 const { default: Buttons } = require("./Buttons");
 const { default: RecipeReviewCard } = require("./Card");
 const { default: SwipeableTextMobileStepper } = require("./Carousel");
+const { default: Clock } = require("./Clock");
 const { default: Containers } = require("./Containers");
 const { default: Date } = require("./Date");
 const { default: FormDialog } = require("./Dialouge");
@@ -50,6 +51,7 @@ function App() {
       <MiddleDividers />
       <EnhancedTable />
       <SimpleTooltips />
+      <Clock/>
     </div>
   );
 }
